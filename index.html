@@ -3,45 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kids Art Magic プライバシーポリシー</title>
+    <title>プライバシーポリシー - Kids Art Magic</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; color: #333; }
-        h1 { color: #ff6b6b; border-bottom: 2px solid #ff6b6b; padding-bottom: 10px; }
-        h2 { color: #4ecdc4; margin-top: 30px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 10px; }
-        a { color: #45b7d1; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .contact { background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 40px; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            border-bottom: 3px solid #e91e63;
+            padding-bottom: 12px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 1.2em;
+            color: #2c3e50;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 4px solid #e91e63;
+        }
+        p {
+            margin-bottom: 12px;
+        }
+        .intro {
+            background: #fce4ec;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            font-size: 0.95em;
+        }
+        ul {
+            margin: 8px 0 16px 24px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        strong {
+            color: #c2185b;
+        }
+        a {
+            color: #1976d2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            margin-top: 32px;
+            padding: 16px 20px;
+            background: #e3f2fd;
+            border-radius: 8px;
+        }
+        .contact p {
+            margin-bottom: 4px;
+        }
+        .footer {
+            margin-top: 32px;
+            text-align: center;
+            font-size: 0.85em;
+            color: #999;
+        }
     </style>
 </head>
 <body>
-    <h1>プライバシーポリシー</h1>
-    <p>Kids Art Magic（以下、「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。</p>
-    
-    <h2>1. 収集する情報と利用目的</h2>
-    <ul>
-        <li><strong>カメラ・画像データ:</strong> ユーザーが描いた絵を撮影・読み込み、AIによる画像変換（スタイル変換）を行うために使用します。これらの画像は一時的にGoogle社のサーバーに送信されますが、本アプリ側で永続的に保存されることはありません。</li>
-        <li><strong>ユーザーID:</strong> ユーザーの識別と、アプリ内トークンの管理のために、Googleログインに基づく一意の識別子（sub ID）を収集します。メールアドレスそのものはデータベースに保存されません。</li>
-    </ul>
+    <div class="container">
+        <h1>プライバシーポリシー</h1>
 
-    <h2>2. サードパーティ サービス</h2>
-    <p>本アプリは、以下の外部サービスを使用して機能を向上させています。各サービスのプライバシーポリシーは以下のリンクよりご確認いただけます。</p>
-    <ul>
-        <li><a href="https://policies.google.com/privacy" target="_blank">Google Play 開発者サービス</a></li>
-        <li><a href="https://support.google.com/admob/answer/6128543?hl=ja" target="_blank">AdMob (広告配信)</a></li>
-        <li><a href="https://policies.google.com/privacy" target="_blank">Google AI / Gemini API (画像生成処理)</a></li>
-    </ul>
+        <div class="intro">
+            Kids Art Magic（以下、「本アプリ」）は、子供のプライバシーを最優先に保護します。<br>
+            本ポリシーは、児童オンラインプライバシー保護法（COPPA）および Google Play ファミリーポリシーに準拠しています。
+        </div>
 
-    <h2>3. 同意</h2>
-    <p>本アプリを使用することにより、本プライバシーポリシーに同意したものとみなされます。特にカメラ権限は、お絵描きの撮影という本アプリの中核機能のために必須となります。</p>
+        <h2>1. 対象ユーザー</h2>
+        <p>本アプリは主に13歳未満の子供を対象としています。</p>
 
-    <h2>4. お問い合わせ</h2>
-    <div class="contact">
-        <p>本ポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。</p>
-        <p><strong>連絡先:</strong> [jeisofuto@gmail.com]</p>
+        <h2>2. 収集する情報と利用目的</h2>
+        <ul>
+            <li><strong>カメラ・画像データ</strong>: ユーザーが描いた絵を撮影・読み込み、AIによる画像変換（スタイル変換）を行うために使用します。これらの画像はCloudflare Workers経由でGoogle社のサーバーに一時的に送信されますが、本アプリ側で永続的に保存されることはありません。</li>
+            <li><strong>ユーザーID</strong>: アプリ内トークンの管理のために、ランダムに生成された一意の識別子（ゲストID）を使用します。Googleログインを行った場合は、Google IDの一意識別子（sub ID）を使用します。メールアドレスそのものはデータベースに保存されません。</li>
+            <li><strong>購入履歴</strong>: アプリ内課金でトークンを購入した場合、トークン残高をサーバーに保存します。クレジットカード情報などの決済情報は一切収集しません。</li>
+        </ul>
+
+        <h2>3. 収集しない情報</h2>
+        <p>本アプリは以下の情報を<strong>一切収集しません</strong>：</p>
+        <ul>
+            <li>位置情報</li>
+            <li>連絡先</li>
+            <li>電話番号</li>
+            <li>行動追跡・トラッキングデータ</li>
+            <li>広告識別子</li>
+        </ul>
+
+        <h2>4. 広告について</h2>
+        <p>本アプリは広告を一切表示しません。</p>
+
+        <h2>5. アプリ内課金</h2>
+        <p>本アプリにはアプリ内課金機能があります。<br>
+        課金は保護者の確認を経て行われるよう、保護者認証機能を実装しています。</p>
+
+        <h2>6. サードパーティ サービス</h2>
+        <p>本アプリは、以下の外部サービスを使用しています：</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play 開発者サービス</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google AI / Gemini API (画像生成処理)</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Billing (アプリ内課金)</a></li>
+        </ul>
+
+        <h2>7. 保護者の権利</h2>
+        <p>保護者はいつでも以下の権利を行使できます：</p>
+        <ul>
+            <li>お子様のデータへのアクセスの要求</li>
+            <li>お子様のデータの削除の要求</li>
+            <li>データ収集の停止の要求</li>
+        </ul>
+        <p>これらの要求は下記のお問い合わせ先にご連絡ください。</p>
+
+        <h2>8. データの安全性</h2>
+        <p>収集されたデータは安全なサーバーに保存され、暗号化された通信（HTTPS）を使用して送受信されます。</p>
+
+        <h2>9. ポリシーの変更</h2>
+        <p>本ポリシーは必要に応じて更新される場合があります。<br>
+        変更があった場合は、本ページにて通知いたします。</p>
+
+        <h2>10. 同意</h2>
+        <p>本アプリを使用することにより、本ポリシーに同意したものとみなされます。</p>
+
+        <h2>11. お問い合わせ</h2>
+        <div class="contact">
+            <p>本ポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。</p>
+            <p>連絡先: <a href="mailto:jeisofuto@gmail.com">jeisofuto@gmail.com</a></p>
+            <p>制定日: 2026年2月9日</p>
+            <p>最終更新日: 2026年2月18日</p>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Kids Art Magic. All rights reserved.
+        </div>
     </div>
-    
-    <p style="margin-top: 50px; font-size: 0.8em; color: #999;">制定日: 2026年2月9日</p>
 </body>
 </html>
